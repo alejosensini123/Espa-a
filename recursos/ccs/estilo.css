@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(134, 16, 16);
+    font-family: Montserrat, 'Segoe UI', sans-serif, sans;
+    font-size: 1.55em;
+    text-align: justify;
+}
+
+hr {
+    border: 2px yellow solid
+}
+
+.bandera {
+    width: 50%;
+    min-width: 500px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.principal {
+    font-style: italic;
+    font-family: serif;
+}
+
+h1 {
+    background-color: rgb(255, 230, 0);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-shadow: -3 2px 1px cyan;
+}
+
+h2 {
+    color: yellow;
+}
+
+.himno {
+    text-transform: capitalize;
+
+}
+
+#densidad table
+td {
+    border-width: 2px;
+    border-color: yellow;
+    border-style: solid;
+    margin: 20px;
+    border-collapse: collapse;
+    
+}
+
+densidad table {
+    width: 50%;
+}
+
+densidad td {
+    padding: 20px;
+
+}
+
+.caja {
+    width: 100%;
+    min-width: 300px;
+    max-width: 900px;
+    height: 150px;
+    background-color: yellow;
+    overflow: scroll;
+    overflow: hidden;
+    overflow: visible;
+
+}
+
+.caja1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(43, 255, 0);
+    padding: 20px 10px;
+
+}
+
+.caja2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 170);
+    border-radius: 20px 0px 30px 10px;
+
+}
+
+.contenedor {
+    background-color: peru;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+densidad td:nth-child(even) {
+    background-color: yellow;
+}
+
+.densidad {
+    text-align: right;
+}
+footer{
+    background-color: aliceblue;
+    color:black;
+    padding: 30px;
+    text-align: right;
+
+}
+.icono{
+    width: 50px;
+}
+.listapiedepagina{
+    list-style-type: none;
+     border-width: 0px;
+     text-align: right;
+    
+    
+    
+}
+.logogrande{
+    height: 500px;
+    
+}
+.sinborde{
+    border-style: hidden;
+    width: 100%;
+
+}
+nav ul li{
+list-style-type:none;
+display: inline;
+margin:0px;
+padding:5px;
+text-align: center;
+
+a{
+    color:black;
+    text-decoration: none ;
+    text-align: center;
+    background-color: yellow;
+    
+}
+}
+nav a:hover{
+    background-color: black;
+    color: blue;
+}
